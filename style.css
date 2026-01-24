@@ -1,0 +1,26 @@
+.reset-btn {
+  background: transparent;
+  border: none; /* ✅ 去掉框 */
+  
+  /* 深一点的苔藓色 */
+  color: rgba(90, 125, 95, 0.9);
+
+  font-family: 'Asimovian', sans-serif;
+  font-size: 12px;
+  padding: 6px 12px;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+
+  transition: 
+    opacity 0.3s ease,
+    color 0.3s ease;
+}
+
+.reset-btn:hover {
+  color: rgba(110, 150, 115, 1); /* hover 稍亮 */
+  opacity: 1;
+}
+
+.reset-btn:active {
+  opacity: 0.6;
+}
